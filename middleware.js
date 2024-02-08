@@ -65,6 +65,6 @@ export async function middleware(request) {
     return NextResponse.next();
 }
 
-export const config = {
-    matcher: [THEME_ROUTES.anonymousPaths, THEME_ROUTES.authenticatedPaths],
-}
+// export const config = {
+//     matcher: [THEME_ROUTES.anonymousPaths, THEME_ROUTES.authenticatedPaths],
+// }
